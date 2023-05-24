@@ -1,11 +1,11 @@
 
 import './App.css';
-import DesktopView from './DesktopView';
+import MobileView from './MobileView';
 
 function App() {
   return (
-    <div className='ml-[82px]'>
-      <DesktopView />
+    <div>
+      <MobileView />
     </div>
   );
 }
