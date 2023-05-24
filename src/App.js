@@ -1,10 +1,11 @@
 
 import './App.css';
+import DesktopView from './DesktopView';
 
 function App() {
   return (
-    <div className="App">
-
+    <div className='ml-[82px]'>
+      <DesktopView />
     </div>
   );
 }
