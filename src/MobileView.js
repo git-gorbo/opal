@@ -1,11 +1,11 @@
 import React from "react";
-import Logo from "./assets/logo/Logo2.svg";
-import Mock from "./assets/image/Mockup.svg";
 import Appstore from "./assets/image/App-Store.svg";
 import Playstore from "./assets/image/Google-Play.svg";
-import Whatsapp from "./assets/image/whatsapp.svg";
-import Mail from "./assets/image/mail.svg";
+import Mock from "./assets/image/Mockup.svg";
 import Insta from "./assets/image/instagram.svg";
+import Mail from "./assets/image/mail.svg";
+import Whatsapp from "./assets/image/whatsapp.svg";
+import Logo from "./assets/logo/Logo2.svg";
 
 const MobileView = () => {
   const gradientStyle = {
@@ -15,7 +15,7 @@ const MobileView = () => {
     <div className="w-[425px] ">
       <div style={gradientStyle}>
         <div className="flex flex-col pr-4 justify-center items-center">
-          <img src={Logo} className="px-[20px] pt-[77px]" />
+          <img src={Logo} className="px-[20px] pt-[77px]" alt="" />
           <p className=" text-[40px] font-bold pl-[30px] pt-10 ">
             O primeiro app em prol da dignidade menstrual{" "}
           </p>
@@ -30,7 +30,7 @@ const MobileView = () => {
             className="w-full py-2 border border-gray-300 rounded-full "
           />
         </div>
-        <img src={Mock} className="pt-[30px]" />
+        <img src={Mock} className="pt-[30px]" alt="" />
         <p className="text-[#361252] font-normal text-center text-2xl pt-8 ">
           Em breve disponível em:
         </p>
@@ -38,19 +38,21 @@ const MobileView = () => {
           <img
             src={Appstore}
             className="flex justify-center items-center pt-12 cursor-pointer"
+            alt=""
           />
           <img
             src={Playstore}
             className="flex justify-center items-center pt-12 cursor-pointer"
+            alt=""
           />
         </div>
         <div className="flex pt-[150px] pb-[40px] pl-[60px] items-center gap-2">
-            <p className=" text-[#361252] font-normal text-2xl">Fale conosco:</p>
-            <div className="flex h-12 w-12 gap-2 ">
-<img src={Whatsapp} />
-<img src={Mail} />
-<img src={Insta} />
-            </div>
+          <p className=" text-[#361252] font-normal text-2xl">Fale conosco:</p>
+          <div className="flex h-12 w-12 gap-2 ">
+            <img src={Whatsapp} alt="" />
+            <img src={Mail} alt="" />
+            <img src={Insta} alt="" />
+          </div>
         </div>
       </div>
     </div>
