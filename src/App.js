@@ -4,7 +4,7 @@ import DesktopView from './DesktopView';
 
 function App() {
   return (
-    <div className='ml-[82px]'>
+    <div className='bg-[#FDF9FF]'>
       <DesktopView />
     </div>
   );
